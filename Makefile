@@ -18,7 +18,7 @@ EXTRA_CFLAGS?= -DHAVE_GETOPT_H=1
 INCLUDES?=
 LDFLAGS?= -L/usr/lib
 EXTRA_LDFLAGS?=
-LIBS= -lext2fs -lm
+LIBS= -lext2fs -lm -lcom_err -lpthread
 EXTRA_LIBS?=
 EXTRAVERSION?=
 
